@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #bde0fe;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #03071e;
+}
+
+nav a{
+    padding: 12px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+
+    transition: all 0.4s ease;
+}
+
+nav a:hover{
+    color: #03071e;
+    background: #fff;
+}
+.fs1
+{
+    background-color: cyan;
+    font-size: 15pt;
+    padding: 8px;
+}
+
+.fs1 legend
+{
+    font-size: 20pt;
+
+}
+
+.fs1 input
+{
+    font-size: 11pt; 
+}
+
+.fs2
+{
+    font-size: 15pt;
+    background-color: lightcoral;
+}
+.fs2 input
+{
+    font-size: 15pt;
+}
+
+.fs3
+{
+    font-size: 15pt;
+    background-color:#dc2f02;
+    color:black;
+}
+.div9 input 
+{
+    font-size: 10pt;
+}
+footer
+{
+    padding: 20px 0;
+    text-align: center;
+    background: #03071e;
+    color: #fff;
+}
